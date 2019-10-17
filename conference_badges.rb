@@ -14,7 +14,6 @@ end
 
 def assign_rooms(attendees)
   attendees.collect.with_index(1) do |attendee, index|
-    binding.pry
     "Hello, #{attendee}! You'll be assigned to room #{index}!"
   end 
 end
